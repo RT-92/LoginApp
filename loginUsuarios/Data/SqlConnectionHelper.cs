@@ -10,7 +10,7 @@ namespace loginUsuarios.Data;
 public static class SqlConnectionHelper
 {
     // 🔐 Cadena de conexión centralizada
-    private static readonly string connectionString = "Server=.;Database=desarrolloApp;Trusted_Connection=True;TrustServerCertificate=True;";
+    private static readonly string connectionString = " ";
 
     /// Obtiene una nueva instancia de SqlConnection abierta.
     public static SqlConnection GetOpenConnection()
